@@ -1,0 +1,19 @@
+{
+  "name": "@factory/standards",
+  "version": "1.0.0",
+  "description": "Factory standards — schemas, protocols, audit rules, and certification validation.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "validate:package": "tsx scripts/validate-package.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@factory/core": "file:.."
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

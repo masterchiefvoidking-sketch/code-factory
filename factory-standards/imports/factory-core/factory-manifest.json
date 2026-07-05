@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0.0",
+  "tenantId": "factory-core",
+  "name": "factory-core",
+  "version": "0.1.0",
+  "integrationMode": "sdk",
+  "status": "certified",
+  "mission": "Shared TypeScript SDK for Factory contracts, validation, events, objects, health, reports, and certification helpers.",
+  "repository": "https://github.com/masterchiefvoidking-sketch/code-factory",
+  "owners": ["factory-platform"],
+  "tags": ["sdk", "typescript", "certification"],
+  "createdAt": "2026-07-05T17:00:00.000Z",
+  "updatedAt": "2026-07-05T17:30:00.000Z"
+}
