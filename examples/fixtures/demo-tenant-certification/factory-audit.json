@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "1.0.0",
+  "tenantId": "demo-tenant",
+  "auditedAt": "2026-07-05T00:00:00.000Z",
+  "auditor": "fixture-external-proof",
+  "verdict": "pass",
+  "findings": [],
+  "standardsVersion": "1.0.0"
+}

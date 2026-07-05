@@ -40,6 +40,18 @@ export interface CreateEmptyCertificationPackageOptions {
 
 const SCHEMA_VERSION = "1.0.0";
 
+/**
+ * Create a skeleton certification package for manual completion.
+ *
+ * **Placeholder defaults — not production-ready:**
+ * - manifest.status: `draft`, version: `0.0.0`, mission: `""` (empty mission fails validation)
+ * - audit.auditor: `pending`, verdict: `conditional`
+ * - health.status: `unknown`, score: 0
+ * - qualification.status: `unqualified`, score: 0
+ *
+ * Default package fails `validateCertificationPackage()` (empty mission) and
+ * `scoreCertificationPackage()` until fields are completed.
+ */
 export function createEmptyCertificationPackage(
   options: CreateEmptyCertificationPackageOptions,
 ): FactoryCertificationPackage {

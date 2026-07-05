@@ -2,6 +2,8 @@
 
 `@factory/core` is the shared TypeScript SDK for the Factory ecosystem.
 
+> **Naming:** GitHub repo `code-factory` · npm `@factory/core` · role `factory-core` — see [NAMING.md](./NAMING.md).
+
 ## What this repo is
 
 - Reusable code: types, validators, SDK helpers, certification utilities

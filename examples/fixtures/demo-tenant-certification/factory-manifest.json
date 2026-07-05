@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0.0",
+  "tenantId": "demo-tenant",
+  "name": "Demo Tenant",
+  "version": "1.0.0",
+  "integrationMode": "standalone",
+  "status": "active",
+  "mission": "Minimal external fixture proving @factory/core validates a non-factory-core package.",
+  "createdAt": "2026-07-05T00:00:00.000Z",
+  "updatedAt": "2026-07-05T00:00:00.000Z"
+}
