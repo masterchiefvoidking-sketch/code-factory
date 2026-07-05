@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "tenantId": "factory-core",
+  "capturedAt": "2026-07-05T17:30:00.000Z",
+  "status": "healthy",
+  "score": 92,
+  "checks": [
+    {
+      "name": "schema-compliance",
+      "status": "healthy",
+      "message": "Certification schemas validate against factory-standards enums."
+    },
+    {
+      "name": "test-suite",
+      "status": "healthy",
+      "message": "Vitest suite covers manifest, health, qualification, events, objects, certification, and Citadel."
+    },
+    {
+      "name": "build",
+      "status": "healthy",
+      "message": "ESM build and type declarations emit successfully."
+    },
+    {
+      "name": "factory-import",
+      "status": "healthy",
+      "message": "SDK exports match factory-standards contract surface."
+    }
+  ]
+}
