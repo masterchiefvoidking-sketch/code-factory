@@ -1,0 +1,56 @@
+{
+  "validatedAt": "2026-07-05T17:41:17.813Z",
+  "packagePath": "/workspace/factory-standards/imports/factory-core",
+  "tenantId": "factory-core",
+  "standardsVersion": "1.0.0",
+  "validationResult": "pass",
+  "readinessScore": 100,
+  "importEligible": true,
+  "overallPassing": true,
+  "errors": [],
+  "warnings": [],
+  "foundationReview": [
+    {
+      "id": "tenant-id",
+      "passed": true,
+      "message": "tenantId is factory-core"
+    },
+    {
+      "id": "mission-sdk-role",
+      "passed": true,
+      "message": "mission identifies shared SDK role"
+    },
+    {
+      "id": "owns-shared-code",
+      "passed": true,
+      "message": "package documents shared code helpers, validators, types, SDK"
+    },
+    {
+      "id": "no-tenant-behavior",
+      "passed": true,
+      "message": "does NOT own tenant behavior"
+    },
+    {
+      "id": "no-standards-ownership",
+      "passed": true,
+      "message": "does NOT own Factory standards"
+    },
+    {
+      "id": "integration-mode-honest",
+      "passed": true,
+      "message": "integration mode \"sdk\" is honest for foundation SDK repo"
+    },
+    {
+      "id": "foundation-repo-registered",
+      "passed": true,
+      "message": "tenantId is a registered foundation repo"
+    }
+  ],
+  "FOUNDATION_READY": true,
+  "TENANT_ROLLOUT_READY": true,
+  "requiredFixes": [],
+  "gaps": [
+    "Audit performed by factory-core self-audit; independent standards audit recommended before tenant rollout.",
+    "@factory/core not yet published to npm — tenants can vendor from git until publish."
+  ]
+}
