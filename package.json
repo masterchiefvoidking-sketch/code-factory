@@ -1,0 +1,43 @@
+{
+  "name": "@factory/core",
+  "version": "0.1.0",
+  "description": "Shared TypeScript SDK for Factory contracts, validation, events, objects, health, reports, and certification helpers.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "docs",
+    "factory-certification"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "lint": "eslint src tests scripts",
+    "typecheck": "tsc --noEmit",
+    "validate:package": "tsx scripts/validate-package.ts",
+    "create:package": "tsx scripts/create-package.ts"
+  },
+  "keywords": [
+    "factory",
+    "certification",
+    "sdk"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@types/node": "^22.15.29",
+    "eslint": "^9.28.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.1",
+    "vitest": "^3.2.1"
+  }
+}

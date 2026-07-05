@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0.0",
+  "tenantId": "factory-core",
+  "evaluatedAt": "2026-07-05T17:30:00.000Z",
+  "status": "qualified",
+  "score": 92,
+  "readinessScore": 92,
+  "criteria": [
+    {
+      "id": "standards-compatibility",
+      "name": "Standards compatibility layer",
+      "passed": true,
+      "weight": 25,
+      "notes": "src/standards/ defines layout, statuses, and integration modes."
+    },
+    {
+      "id": "validator-coverage",
+      "name": "Validator coverage",
+      "passed": true,
+      "weight": 25,
+      "notes": "Manifest, audit, health, qualification, event, object, Citadel, and package validators implemented."
+    },
+    {
+      "id": "certification-sdk",
+      "name": "Certification SDK",
+      "passed": true,
+      "weight": 25,
+      "notes": "Package create/read/score/layout helpers and CLI scripts available."
+    },
+    {
+      "id": "self-certification",
+      "name": "Self-certification package",
+      "passed": true,
+      "weight": 25,
+      "notes": "factory-certification/ directory validates with factory-core tools."
+    }
+  ]
+}
